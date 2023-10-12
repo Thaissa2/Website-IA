@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Artificial</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>Tecnologias</h1>
+    </header>
+
+    <section class="principal">
+        <div class="box-img">
+            <img   class="responsiva" id="web" src="img/web1.jpg">
+        </div>
+        <div class="box-txt">
+            <span>Artificial Intelligence</span>
+            <h2>Inteligência <br>Artificial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi neque quidem cumqu</p>
+            <a target="_blank" href="https://wa.me/55999999999?" class="m-top btn-principal">Consulta</a>
+        </div>
+    </section>
+
+    <section class="tecnologia">
+        <div class="box-item">
+            <h3>Realidade aumentada e virtual.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi neque quidem cumqu</p>
+        </div>
+
+        <div class="box-item">
+            <h3>Robótica médica.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi neque quidem cumqu</p>
+        </div>
+
+        <div class="box-item">
+            <h3>Robôs autônomos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi neque quidem cumqu</p>
+        </div>
+        <a  target="_blank" href="" class="m-top btn-principal">Consulta</a>
+    </section>
+
+    <footer><p>2023 &copy Desenvolvimento WEB. Todos os direitos reservados </p></footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/55999999999?">
+            <img width="80" src="img/whats1.webp">
+
+        </a>
+    </div>
+    <script>
+         const web = document.getElementById('web');
+         web.addEventListener('mouseover', function(){
+            web.src="img/web.png"
+
+         });
+
+         web.addEventListener('mouseout', function(){
+            web.src="img/web1.jpg";
+         })
+
+    </script>
+</body>
+</html>

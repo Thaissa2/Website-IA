@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Yesteryear&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#083966;
+    height: 80px;
+
+}
+
+header h1{
+    font-size: 60px;
+    color:#A4BCD8;
+    font-family: 'Yesteryear', cursive;
+    font-weight: normal;
+
+}
+.principal{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+    align-items: center;
+    width:90%;
+    padding: 20px;
+    border: 1px ;
+    /* border: */
+
+}
+.responsiva{
+    max-width: 100%;
+}
+.box-txt{
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+    flex-grow: 1;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.box-img {
+    margin-right: 20px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.box-txt span{
+    color:#A4BCD8;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.box-txt h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 80px;
+    color: #083966;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 70px;
+
+}
+
+.box-txt p{
+    color:#5B82AD;
+    margin-bottom: 30px;
+
+}
+
+.btn-principal{
+    background: #A1BADA;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color:#29647C;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+
+}
+
+
+.btn-principal:hover{
+    background:#083966;
+    color: white;
+    font-size: 18px;
+
+}
+
+.box-item{
+    width: 30%;
+    height: 380px;
+    background:#A1BADA;
+    margin: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.h3,p{
+    color: #0E2236;
+}
+
+.tecnologia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.m-top{
+    margin-top: 30px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background:#071121;
+    height: 150px;
+    color: white;
+    font-size: 22px;
+
+}
+footer p{
+    color: #8FA397;
+}
+
+
+.whats{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+
+@media screen and (max-width:1200px){
+
+    header h1{
+        font-size:45px;
+    }
+    .principal{
+        flex-direction: column-reverse;
+    }
+    .box-txt{
+        flex-flow: column wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 30px;
+    }
+    .box-txt h2{
+        font-size: 55px;
+    }
+    .box-txt p{
+        text-align: center;
+    }
+    .box-img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .box-item{
+        width: 95%;
+    }
+    .m-top{
+        margin-top: 30px;
+        width: 30%;
+        text-align: center;
+    }
+    footer{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
